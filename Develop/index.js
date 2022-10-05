@@ -19,7 +19,27 @@ const questions =  [
 {
     type: 'input',
     name:'description',
-    message: 'Whats your Repo Description?'
+    message: 'Provide a short description explaining the what, why, and how of your project?'
+},
+{
+    type: 'input',
+    name:'description1',
+    message: 'What was your motivation?'
+},
+{
+    type: 'input',
+    name:'description2',
+    message: 'Why did you build this project?'
+},
+{
+    type: 'input',
+    name:'description3',
+    message: 'What problem does it solve?'
+},
+{
+    type: 'input',
+    name:'description4',
+    message: 'What did you learn?'
 },
 {
     type: 'input',
