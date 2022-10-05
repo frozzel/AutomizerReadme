@@ -1,20 +1,25 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function createLicense(license){
+  if (license === "MIT"){
+    return `[![Github license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+  } else if (license === "ISC"){
+    return `[![Github license](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`
+  } else {
+    return ''
+  }
+}
+function leonardo(moviequote){
+  if (moviequote == "Catch Me if You Can")
+  return `We are all Giants, Some are just waiting to stand!`
+  else (moviequote !== "Catch Me if You Can")
+    return `Google is Great :)`
+  }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `
+  return ` 
   # ${data.title}
-  
+ 
   ## Description
   ${data.description}
 
@@ -55,15 +60,22 @@ function generateMarkdown(data) {
   If you followed tutorials, include links to those here as well. 
   
   ## License
-  ${data.license}
- 
+  
+  ${createLicense(data.license)}
+  
   ## Tests
+
   ${data.test}
   
   ## Contributors 
+
   Created by: [@${data.github}](${data.github1}), [@addOtherContributors](http://thereGitHub/profile)
   
   Please contact me with questions at: ${data.email}
+  
+  Fun Movie Fact: 
+  
+  ${leonardo(data.moviequote)}
 `;
 }
 

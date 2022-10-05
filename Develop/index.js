@@ -3,11 +3,11 @@ const inquirer = require('inquirer'); // https://www.npmjs.com/package/inquirer/
 const fs = require('fs');
 const generateMarkdown= require('./utils/generateMarkdown');///Links to other JS
 
-/// may need var to call markdown sheet
 
 
 
-// TODO: Create an array of questions for user input
+
+
 
 ///// 28 min project//////
 const questions =  [   
@@ -67,7 +67,7 @@ const questions =  [
     message: 'Whats thier site address? Example (https://sampleapis.com/api-list/coffee)'
 },
 {
-    type: 'list',   /////// look up input for array, and badges??? canvas says list reeeeasearch.... may need another package more testing
+    type: 'list',  
     name:'license',
     message: 'What Liccense did you use?',
     choices: ["MIT", "ISC", "None"],
@@ -92,23 +92,26 @@ const questions =  [
     name:'email',
     message: 'Whats your email contact for questions?'
 },
+{
+    type: 'input',
+    name:'moviequote',
+    message: 'Frank Abagnale Jr. is the main character in what 2002 movie?'
+},
 
 
 ];
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-//     fs.writeFile('README.md', generateMarkdown)
-// }
 
 
 
-// research writing function//
-// TODO: Create a function to initialize app
+
+
+
 function init() {
-    inquirer.prompt(questions).then(data => fs.writeFileSync('README.md', generateMarkdown(data)))// https://medium.com/@abdishire15/what-is-the-difference-between-fs-writefile-and-fs-writefilesync-3a2c3f2c516
+    inquirer.prompt(questions).then(data => fs.writeFileSync('README.md', generateMarkdown(data)))
+    // https://medium.com/@abdishire15/what-is-the-difference-between-fs-writefile-and-fs-writefilesync-3a2c3f2c516
    
 }
 
-// Function call to initialize app
+
 init();
