@@ -5,7 +5,7 @@ const inquirer = require('inquirer'); // https://www.npmjs.com/package/inquirer/
 // TODO: Create an array of questions for user input
 
 ///// 28 min project//////
-const questions = [   
+const questions =  [   
 {
     type: 'input',
     name:'title',
@@ -32,9 +32,10 @@ const questions = [
     message: 'Tell me who contributed to the Repo?'
 },
 {
-    type: 'input',   /////// look up input for array, and badges??? canvas says list reeeeasearch....
+    type: 'input',   /////// look up input for array, and badges??? canvas says list reeeeasearch.... may need another package more testing
     name:'license',
-    message: 'Whats your Repo Title?'
+    message: 'What Liccense did you use?',
+    
 },
 {
     type: 'input',
@@ -59,7 +60,9 @@ const questions = [
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+}
 
 // Function call to initialize app
 init();
