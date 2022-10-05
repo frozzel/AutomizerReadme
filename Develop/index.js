@@ -71,7 +71,7 @@ const questions =  [
 // research writing function//
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions).then(data => fs.writeFileSync('README.md', generateMarkdown(data)))
+    inquirer.prompt(questions).then(data => fs.writeFileSync('README.md', generateMarkdown(data)))// https://medium.com/@abdishire15/what-is-the-difference-between-fs-writefile-and-fs-writefilesync-3a2c3f2c516
    
 }
 
