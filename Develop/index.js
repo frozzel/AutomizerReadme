@@ -54,7 +54,7 @@ const questions =  [
 {
     type: 'input',
     name:'usage1',
-    message: 'Site Url, https://yourGithubuser.github.io/titleofSite/'
+    message: 'Site Url, Example (https://yourGithubuser.github.io/titleofSite/)'
 },
 {
     type: 'input',
@@ -67,10 +67,10 @@ const questions =  [
     message: 'Whats thier site address? Example (https://sampleapis.com/api-list/coffee)'
 },
 {
-    type: 'input',   /////// look up input for array, and badges??? canvas says list reeeeasearch.... may need another package more testing
+    type: 'list',   /////// look up input for array, and badges??? canvas says list reeeeasearch.... may need another package more testing
     name:'license',
     message: 'What Liccense did you use?',
-    
+    choices: ["MIT", "ISC", "None"],
 },
 {
     type: 'input',
