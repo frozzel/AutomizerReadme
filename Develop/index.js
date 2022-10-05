@@ -1,6 +1,11 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer'); // https://www.npmjs.com/package/inquirer/v/8.2.4
+
+const generateMarkdown= require('./utils/generateMarkdown') ///Links to other JS
+
 /// may need var to call markdown sheet
+
+
 
 // TODO: Create an array of questions for user input
 
@@ -58,7 +63,7 @@ const questions =  [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
-
+// research writing function//
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
