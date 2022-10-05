@@ -39,22 +39,32 @@ const questions =  [
 {
     type: 'input',
     name:'description4',
-    message: 'What did you learn?'
+    message: 'What problem does it solve?'
 },
 {
     type: 'input',
     name:'installation',
-    message: 'How do you install your application?'
+    message: 'What are the steps required to install your project?'
 },
 {
     type: 'input',
     name:'usage',
-    message: 'How is your application used?'
+    message: 'Provide instructions and examples for use.'
+},
+{
+    type: 'input',
+    name:'usage1',
+    message: 'Site Url, https://yourGithubuser.github.io/titleofSite/'
 },
 {
     type: 'input',
     name:'contribution',
-    message: 'Tell me who contributed to the Repo?'
+    message: 'What Resources where used? Example [Site name]'
+},
+{
+    type: 'input',
+    name:'contribution1',
+    message: 'Whats thier site address? Example (https://sampleapis.com/api-list/coffee)'
 },
 {
     type: 'input',   /////// look up input for array, and badges??? canvas says list reeeeasearch.... may need another package more testing
@@ -70,7 +80,12 @@ const questions =  [
 {
     type: 'input',
     name:'github',
-    message: 'Whats your GitHub user name?'
+    message: 'Whats your GitHub user name? Example [@YOUrUSERname]'
+},
+{
+    type: 'input',
+    name:'github1',
+    message: 'Whats your GitHub Link? Example (https://github.com/YOurUrl/)'
 },
 {
     type: 'input',

@@ -1,35 +1,50 @@
 
-  # Cup O Tears
+  # test
   
   ## Description
-  daflkjad kldfjalk kladjfal; akldfja kladjfkladjf l afdjkl dkajlfgafkljgfgjkf gfk gkfsjgslfj
-  
+  dafkladfja
+
+  -kldasfj
+  -adjlk;fa;
+  -aljds;fkja
+  -al;kfjaj
   
   ## Table of Contents (Optional)
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
+  - [Resources](#resources)
   - [License](#license)
   - [Test](#tests)
-  - [Contact](#contact)
+  - [Contributors](#contributors)
   
   ## Installation
-  download install nps run node
+  al;kfj
   
   ## Usage
-  writes readme file based on user input
+  [Vist Our Site](dasjklfgnha)
+  al;dkf;j
   
-  ## Credits
-  me
+![Screen Shots](./assets/images/YOURIMAGE.png)
+![Screen Shots2](./assets/images/YOURIMAGE2.png)
+
+  ## Resources
+
+  [dasjkhlfakjd](adfkjlahdsklfj;ad)
+  
+  List your collaborators, if any, with links to their GitHub profiles.
+
+  If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+
+  If you followed tutorials, include links to those here as well. 
   
   ## License
-  MIT
+  adklfja;dlkfj
  
   ## Tests
-  node index.js
+  dsaklfasdl;kj
   
-  ## Contact 
-  Github Profile: frozzel
+  ## Contributors 
+  Created by: [@dsafjkladsfj](dsajklf;adsjklf)
   
-  Email: frozzel@gmail.com
+  Please contact me with questions at: dsklfalkdsfj

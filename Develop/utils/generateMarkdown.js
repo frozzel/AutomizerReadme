@@ -27,19 +27,32 @@ function generateMarkdown(data) {
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
+  - [Resources](#resources)
   - [License](#license)
   - [Test](#tests)
-  - [Contact](#contact)
+  - [Contributors](#contributors)
   
   ## Installation
   ${data.installation}
   
   ## Usage
+  [Vist Our Site](${data.usage1})
   ${data.usage}
   
-  ## Credits
-  ${data.contribution}
+![Screen Shots](./assets/images/YOURIMAGE.png)
+![Screen Shots2](./assets/images/YOURIMAGE2.png)
+
+  ## Resources
+
+  [${data.contribution}](${data.contribution1})
+
+  [Site name add more Links](https://sampleapis.com/api-list/coffee)
+  
+  List your collaborators, if any, with links to their GitHub profiles.
+
+  If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+
+  If you followed tutorials, include links to those here as well. 
   
   ## License
   ${data.license}
@@ -47,10 +60,10 @@ function generateMarkdown(data) {
   ## Tests
   ${data.test}
   
-  ## Contact 
-  Github Profile: ${data.github}
+  ## Contributors 
+  Created by: [@${data.github}](${data.github1}), [@addOtherContributors](http://thereGitHub/profile)
   
-  Email: ${data.email}
+  Please contact me with questions at: ${data.email}
 `;
 }
 
