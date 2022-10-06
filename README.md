@@ -9,7 +9,7 @@
   -This project helped me to furter understand nodeJS and ES6
 
   -Some problems I ran into where in the list function of the promt inquirer npm, once reading through the online materials I was able to fix the problem and move forward!
-  
+
   -This app will streamline the development process by redicing the time to create a readme template
   
   ## Table of Contents (Optional)
@@ -26,11 +26,13 @@
   
   ## Usage
   [Vist Our Site](https://github.com/frozzel/AutomizerReadme)
+  [Video](https://youtu.be/QhM1vN2Zaj4)
   
-  
-![Screen Shots](./assets/images/YOURIMAGE.png)
+![Screen Shots](./Develop/assets/images/Screen%20Shot%202022-10-05%20at%209.31.44%20PM.png)
 
-![Screen Shots2](./assets/images/YOURIMAGE2.png)
+![Screen Shots2](./Develop/assets/images/Screen%20Shot%202022-10-05%20at%209.32.34%20PM.png)
+
+
 
   ## Resources
 
