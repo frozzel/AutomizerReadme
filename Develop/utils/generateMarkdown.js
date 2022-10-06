@@ -23,10 +23,10 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
 
-  -${data.description1}
-  -${data.description2}
-  -${data.description3}
-  -${data.description4}
+  -${data.description1}\n
+  -${data.description2}\n
+  -${data.description3}\n
+  -${data.description4}\n
   
   ## Table of Contents (Optional)
   
